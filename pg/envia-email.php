@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $assunto = $_POST['assunto'];
 $conteudo = $_POST['conteudo'];
 require_once('../funcoes.php');
-require_once(PATH.'/PHPMailer-master/PHPMailerAutoload.php');
+require_once(PATH.'/PHPMailer/PHPMailerAutoload.php');
 $mail = new PHPMailer();
 
 $mail->isSMTP();
