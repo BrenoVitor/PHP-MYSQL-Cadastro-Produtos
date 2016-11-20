@@ -1,0 +1,49 @@
+body {
+    padding-top: 50px;
+    background-color: #EEE;
+}
+
+.principal {
+    padding: 10% 15px;
+    text-align: center;
+    font-size: 3rem;
+    margin: auto;
+}
+
+.formulario{
+    margin: auto;
+    padding: 2cm;
+    border: 0.1cm black solid;
+    background-attachment: fixed;
+    text-align: justify;
+    background-color: #FFF;
+    
+}
+
+input[type=submit]{
+    
+    color: black;
+}
+
+.clear{
+    clear: both;
+}
+
+.botao-excluir, .botao-alterar{
+    
+  margin: 10px;
+}
+
+.form-editar, .form-excluir{
+    display: inline-block;
+}
+
+.produtos{
+    
+    border: 0.1cm solid black;
+    
+    margin-bottom: 10px;
+    
+    background-color: #FFF;
+}
+
